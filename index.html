@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Pet Grooming</title>
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      color: rgb(51, 51, 51);
+    }
+
+    .main-header {
+      background-color: rgb(17, 17, 17);
+      padding: 30px 80px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 65px;
+    }
+
+    .nav-menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px; 
+    }
+
+    .nav-menu ul li {
+      display: inline;
+    }
+
+    .nav-menu ul li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 16px; 
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .nav-menu ul li a:hover {
+      color: rgb(212, 160, 43);
+    }
+
+    .nav-menu i {
+      color: rgb(255, 255, 255);
+      margin-left: 15px;
+      cursor: pointer;
+    }
+
+    .nav-menu i:hover {
+      color: rgb(212, 160, 43);
+    }
+
+    .content-section {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      padding: 100px 90px;
+      background-color: rgb(255, 255, 255);
+    }
+
+    .content-text {
+      max-width: 48%;
+      text-align: left;
+      margin-right: 5%; 
+    }
+
+    .content-text p {
+      font-size: 20px; 
+      color: rgb(212, 160, 43);
+      margin-bottom: 25px;
+      font-weight: 500;
+    }
+
+    .content-text h1 {
+      font-size: 55px; 
+      color: rgb(51, 51, 51);
+      line-height: 1.2;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+
+    .cta-button {
+      background-color: rgb(212, 160, 43);
+      color: rgb(255, 255, 255);
+      padding: 12px 30px;
+      text-decoration: none;
+      font-size: 15px; 
+      font-weight: bold;
+      border: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .content-image img {
+      max-width: 100%;
+      height: auto;
+      margin-left: 0; 
+    }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <img src="img/pet_mobile.png" alt="Logo">
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+        <i id="bars" class="fa-solid fa-bars"></i>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content-section">
+    <div class="content-text">
+      <p>Rockstar treatment for your pet.</p>
+      <h1>GROOMING WITH 
+        <br>
+        GENTLE CARE.</h1>
+      <button class="cta-button">Contact Us</button>
+    </div>
+    <div class="content-image">
+      <img src="img/meo.jpg" alt="Cat Image">
+    </div>
+  </section>
+</body>
+</html>
